@@ -44,7 +44,7 @@ class mobile_command():
     def _search(self):
         step = 0
         min = 1024
-        while(step<91):
+        while(step<75):
             self._spinCL(70)
             step+=1
             if self.light_data <min:
