@@ -84,7 +84,7 @@ class mobile_command():
         
     def _catch(self):
         self._stop()
-        
+        rospy.sleep(3)
 
 def publisher():
     cmder = mobile_command()
