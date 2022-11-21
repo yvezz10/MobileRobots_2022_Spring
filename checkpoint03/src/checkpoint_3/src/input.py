@@ -12,7 +12,7 @@ class mobile_command():
         rospy.Subscriber('light_sensor', Int32, self.callback)
 
 
-    def _forward(self, speed = 130):
+    def _forward(self, speed = 200):
         self.msg.left_speed = speed
         self.msg.right_speed = speed
         self.pub.publish(self.msg)
@@ -53,7 +53,7 @@ class mobile_command():
 
         step = 0
         self._stop()
-        rospy.sleep(0.5)
+        rospy.sleep(0.2)
         while(step<200):
             if (self.light_data - min)<50:
                 self._stop()
@@ -61,11 +61,11 @@ class mobile_command():
                 self._spinCCL(40)
                 rospy.sleep(0.3)
                 break
-            self._spinCL(self.light_data/11)
+            self._spinCL()
             step+=1
             rospy.sleep(0.05)
         self._stop()
-        rospy.sleep(0.5)
+        rospy.sleep(0.2)
         step = 30
         while(wiringpi.digitalRead(1) == 0 and step<100):
             self._forward(step)
@@ -75,7 +75,7 @@ class mobile_command():
 
     def _collision(self):
         self._stop()
-        rospy.sleep(0.5)
+        rospy.sleep(0.2)
         #left_sensor = wiringpi.digitalRead(2)
         #right_sensor = wiringpi.digitalRead(3)
         self._backward()
@@ -118,3 +118,4 @@ def main():
 
 if __name__ =="__main__":
     main()
+
