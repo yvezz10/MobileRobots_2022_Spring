@@ -9,7 +9,7 @@ including the connection with Arduino board.
 
 >Write project to publish an integer to Arduino from raspberry pi then receive the
 double of the number by the platform set up previously. As shown in the following
-figure.The figure credits to TA’s slide.
+figure.(The figure credits to TA’s slide.)
 
 <img src="img/checkpoint_1.png" alt = "ckpt1" title = "ckpt1">
 
