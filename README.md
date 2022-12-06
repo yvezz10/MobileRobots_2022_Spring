@@ -22,6 +22,7 @@ direction. In the moving forward task, it is required to make the robot walk as
 straight as possible.
 
 -Result:
+
 9 mm offset after moving 3 m forward.
 
 <img src="img/checkpoint_2.gif" alt = "ckpt2" title = "ckpt2">
@@ -37,19 +38,25 @@ or the wall.
 avoiding the object in the arena.
 
 -Result:
+
 The task was finished in 17.36 seconds.
 
 <img src="img/checkpoint_3.gif" alt = "ckpt3" title = "ckpt3">
 
 ## Checkpoint04
+>Configure the IR sensor for mobile robot to find the door after catching the
+light ball.
 
+>The mobile robot should find the LED light object automatically and take the
+light ball to the door while avoiding the object in the arena.
 
-## Competition
+-Result:
 
+The task was finished in 18.36 seconds.
+
+<img src="img/checkpoint_4.gif" alt = "ckpt4" title = "ckpt4">
 
 ## Final
-
-
 
 
 
