@@ -3,6 +3,9 @@
 This repo contains the checkpoint code in the 2022 mobile-robots course.
 For the detail of each checkpoint please refer to its report.
 
+>Thanks to my teamate Yu-lin, Chen. He consturct most of the sensor and electronic circuit part perfectly.
+Therefore I can finish the program without worries.
+
 ## Checkpoint01
 >Install the ROS platform on raspberry pi and set up the environment for robotics,
 including the connection with Arduino board.
@@ -62,7 +65,17 @@ The task was finished in 18.36 seconds.
 <img src="img/checkpoint_4.gif" alt = "ckpt4" title = "ckpt4">
 
 ---
+## Hockey Competition
+>Final hockey competition of the class.
 
+>The robot should catch the light ball and bring the light ball to the goal.
+
+>Our team won the first place!!!!!!!!
+
+>Out robott is the right one in the video.
+
+<img src="img/competition.gif" alt = "competition" title = "competition">
+---
 ## Final
 
 >It's around the corner...
