@@ -75,9 +75,6 @@ The task was finished in 18.36 seconds.
 >Out robott is the right one in the video.
 
 <img src="img/competition.gif" alt = "competition" title = "competition">
----
-## Final
 
->It's around the corner...
 
 
